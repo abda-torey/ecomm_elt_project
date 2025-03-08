@@ -19,3 +19,4 @@ crash.log
 # Ignore any temporary files created by Terraform
 *.tfvars.json
 terraform/keys/first-key.json
+*.tfvars
