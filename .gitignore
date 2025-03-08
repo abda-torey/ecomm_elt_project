@@ -20,3 +20,6 @@ crash.log
 *.tfvars.json
 terraform/keys/first-key.json
 *.tfvars
+scripts/keys/first-key.json
+.env
+jars/

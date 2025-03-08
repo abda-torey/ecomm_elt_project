@@ -1,0 +1,49 @@
+
+services:
+  spark:
+    image: docker.io/bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - SPARK_USER=spark
+      - GOOGLE_APPLICATION_CREDENTIALS=/opt/bitnami/spark/keys/first-key.json  # Pointing to the GCP key
+
+    ports:
+      - '8080:8080'  # Spark Web UI
+    volumes:
+      - ./scripts:/opt/bitnami/spark/scripts  # Mount the local "scripts" folder to /opt/spark/scripts in the container
+      - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
+      - ./spark:/opt/bitnami/spark/scripts
+      - ./scripts/keys:/opt/bitnami/spark/keys
+
+    env_file:
+      - .env  # Reference the .env file
+  
+  spark-worker:
+    image: docker.io/bitnami/spark:3.5
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - SPARK_USER=spark
+    depends_on:
+      - spark
+    volumes:
+      - ./scripts:/opt/bitnami/spark/scripts  # Mount the local "scripts" folder to /opt/spark/scripts in the container
+      - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
+      - ./spark:/opt/bitnami/spark/scripts
+      - ./scripts/keys:/opt/bitnami/spark/keys
+
+    env_file:
+      - .env  # Reference the .env file
+networks:
+  default:
+    driver: bridge
