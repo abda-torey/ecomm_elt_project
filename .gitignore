@@ -1,0 +1,21 @@
+terraform/.terraform
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+
+# Ignore .terraform directory (modules, plugins, etc.)
+.terraform/
+
+# Ignore any temporary files created by Terraform
+*.tfvars.json
+terraform/keys/first-key.json
