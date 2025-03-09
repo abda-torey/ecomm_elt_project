@@ -18,6 +18,7 @@ services:
       - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
       - ./spark:/opt/bitnami/spark/scripts
       - ./scripts/keys:/opt/bitnami/spark/keys
+      - ./jars/spark-3.5-bigquery-0.42.0.jar:/opt/bitnami/spark/jars/spark-3.5-bigquery-0.42.0.jar
 
     env_file:
       - .env  # Reference the .env file
@@ -41,6 +42,8 @@ services:
       - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
       - ./spark:/opt/bitnami/spark/scripts
       - ./scripts/keys:/opt/bitnami/spark/keys
+      - ./jars/spark-3.5-bigquery-0.42.0.jar:/opt/bitnami/spark/jars/spark-3.5-bigquery-0.42.0.jar
+
 
     env_file:
       - .env  # Reference the .env file

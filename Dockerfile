@@ -18,3 +18,6 @@ EXPOSE 4040
 
 # Start Spark master and worker
 CMD ["spark-class", "org.apache.spark.deploy.master.Master"]
+
+
+

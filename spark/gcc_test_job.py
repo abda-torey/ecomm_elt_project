@@ -12,6 +12,7 @@ df = spark.read.csv(gcs_bucket_path, header=True)
 
 # Show some data
 df.show()
+df.printSchema()
 
 # Stop the Spark session
 spark.stop()
