@@ -1,7 +1,74 @@
+# Define common configurations for Spark and Airflow services
+x-spark-common: &spark-common
+  image: docker.io/bitnami/spark:3.5
+  volumes:
+    - ./scripts:/opt/bitnami/spark/scripts
+    - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
+    - ./spark:/opt/bitnami/spark/scripts
+    - ./scripts/keys:/opt/bitnami/spark/keys
+    - ./jars/spark-3.5-bigquery-0.42.0.jar:/opt/bitnami/spark/jars/spark-3.5-bigquery-0.42.0.jar
+  env_file:
+    - .env  # Reference the .env file
+
+x-airflow-common: &airflow-common
+  build: . 
+  volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/airflow/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/airflow/logs:/opt/airflow/logs
+    - ./spark:/opt/airflow/jobs
+    - ./jars:/opt/airflow/jars
+    - ./scripts/keys:/opt/airflow/keys
+  env_file:
+    - airflow.env
+  depends_on:
+    - postgres
+  restart: always
 
 services:
+  # Postgres service
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - ./postgres/postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+
+  # Airflow webserver
+  airflow-webserver:
+    <<: *airflow-common
+    user: "1000:1000"
+    command: airflow webserver
+    ports:
+      - "8080:8080"
+    depends_on:
+      - airflow-scheduler
+
+  # Airflow scheduler
+  airflow-scheduler:
+    <<: *airflow-common
+    user: "1000:1000"
+    command: >
+      bash -c "
+      airflow db init &&
+      airflow db upgrade && 
+      airflow users create --username admin --firstname abda --lastname torey --role Admin --email admin@admin.com --password admin &&  
+      airflow scheduler
+      "
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # Spark master
   spark:
-    image: docker.io/bitnami/spark:3.5
+    <<: *spark-common
     environment:
       - SPARK_MODE=master
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
@@ -10,26 +77,18 @@ services:
       - SPARK_SSL_ENABLED=no
       - SPARK_USER=spark
       - GOOGLE_APPLICATION_CREDENTIALS=/opt/bitnami/spark/keys/first-key.json  # Pointing to the GCP key
-
     ports:
-      - '8080:8080'  # Spark Web UI
-    volumes:
-      - ./scripts:/opt/bitnami/spark/scripts  # Mount the local "scripts" folder to /opt/spark/scripts in the container
-      - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
-      - ./spark:/opt/bitnami/spark/scripts
-      - ./scripts/keys:/opt/bitnami/spark/keys
-      - ./jars/spark-3.5-bigquery-0.42.0.jar:/opt/bitnami/spark/jars/spark-3.5-bigquery-0.42.0.jar
+      - '8081:8080'  # Spark Web UI
+      - "7077:7077"  # Spark Master port
 
-    env_file:
-      - .env  # Reference the .env file
-  
+  # Spark worker
   spark-worker:
-    image: docker.io/bitnami/spark:3.5
+    <<: *spark-common
     environment:
       - SPARK_MODE=worker
       - SPARK_MASTER_URL=spark://spark:7077
-      - SPARK_WORKER_MEMORY=1G
-      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=2G
+      - SPARK_WORKER_CORES=2
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
       - SPARK_RPC_ENCRYPTION_ENABLED=no
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
@@ -37,16 +96,7 @@ services:
       - SPARK_USER=spark
     depends_on:
       - spark
-    volumes:
-      - ./scripts:/opt/bitnami/spark/scripts  # Mount the local "scripts" folder to /opt/spark/scripts in the container
-      - ./jars/gcs-connector-hadoop3-2.2.0.jar:/opt/bitnami/spark/jars/gcs-connector-hadoop3-2.2.0.jar
-      - ./spark:/opt/bitnami/spark/scripts
-      - ./scripts/keys:/opt/bitnami/spark/keys
-      - ./jars/spark-3.5-bigquery-0.42.0.jar:/opt/bitnami/spark/jars/spark-3.5-bigquery-0.42.0.jar
 
-
-    env_file:
-      - .env  # Reference the .env file
 networks:
   default:
     driver: bridge

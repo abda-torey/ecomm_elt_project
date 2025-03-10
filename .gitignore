@@ -23,3 +23,5 @@ terraform/keys/first-key.json
 scripts/keys/first-key.json
 .env
 jars/
+airflow.env
+postgres/postgres-db-volume/

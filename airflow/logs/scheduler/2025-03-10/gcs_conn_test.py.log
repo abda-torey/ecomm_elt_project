@@ -1,0 +1,777 @@
+[2025-03-10T00:00:26.937+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:00:26.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:00:26.947+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:00:26.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:00:26.958+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:00:26.988+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:00:26.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:00:27.004+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:00:27.003+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:00:27.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.093 seconds
+[2025-03-10T00:00:57.367+0000] {processor.py:186} INFO - Started process (PID=562) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:00:57.368+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:00:57.369+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:00:57.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:00:57.377+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:00:57.403+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:00:57.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:00:57.429+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:00:57.428+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:00:57.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.093 seconds
+[2025-03-10T00:01:27.727+0000] {processor.py:186} INFO - Started process (PID=597) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:01:27.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:01:27.736+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:01:27.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:01:27.748+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:01:27.773+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:01:27.773+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:01:27.789+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:01:27.789+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:01:27.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.089 seconds
+[2025-03-10T00:01:58.102+0000] {processor.py:186} INFO - Started process (PID=607) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:01:58.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:01:58.105+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:01:58.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:01:58.113+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:01:58.139+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:01:58.138+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:01:58.153+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:01:58.153+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:01:58.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.076 seconds
+[2025-03-10T00:02:28.534+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:02:28.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:02:28.539+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:02:28.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:02:28.547+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:02:28.572+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:02:28.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:02:28.586+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:02:28.586+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:02:28.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.075 seconds
+[2025-03-10T00:02:58.979+0000] {processor.py:186} INFO - Started process (PID=627) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:02:58.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:02:58.982+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:02:58.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:02:58.992+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:02:59.019+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:02:59.019+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:02:59.033+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:02:59.033+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:02:59.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.077 seconds
+[2025-03-10T00:03:29.361+0000] {processor.py:186} INFO - Started process (PID=637) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:03:29.367+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:03:29.369+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:03:29.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:03:29.378+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:03:29.402+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:03:29.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:03:29.416+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:03:29.416+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:03:29.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.080 seconds
+[2025-03-10T00:03:59.742+0000] {processor.py:186} INFO - Started process (PID=647) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:03:59.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:03:59.745+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:03:59.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:03:59.754+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:03:59.779+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:03:59.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:03:59.796+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:03:59.796+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:03:59.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.081 seconds
+[2025-03-10T00:04:30.165+0000] {processor.py:186} INFO - Started process (PID=657) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:04:30.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:04:30.169+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:04:30.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:04:30.177+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:04:30.201+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:04:30.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:04:30.214+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:04:30.214+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:04:30.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.079 seconds
+[2025-03-10T00:05:00.613+0000] {processor.py:186} INFO - Started process (PID=667) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:05:00.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:05:00.616+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:05:00.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:05:00.624+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:05:00.648+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:05:00.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:05:00.661+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:05:00.660+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:05:00.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.071 seconds
+[2025-03-10T00:05:31.034+0000] {processor.py:186} INFO - Started process (PID=677) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:05:31.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:05:31.039+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:05:31.039+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:05:31.049+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:05:31.074+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:05:31.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:05:31.091+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:05:31.090+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:05:31.109+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.082 seconds
+[2025-03-10T00:06:01.481+0000] {processor.py:186} INFO - Started process (PID=687) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:06:01.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:06:01.485+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:06:01.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:06:01.494+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:06:01.520+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:06:01.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:06:01.534+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:06:01.534+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:06:01.553+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.078 seconds
+[2025-03-10T00:06:31.884+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:06:31.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:06:31.889+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:06:31.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:06:31.896+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:06:31.922+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:06:31.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:06:31.942+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:06:31.942+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:06:31.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.087 seconds
+[2025-03-10T00:07:02.342+0000] {processor.py:186} INFO - Started process (PID=707) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:07:02.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:07:02.346+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:07:02.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:07:02.357+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:07:02.383+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:07:02.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:07:02.400+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:07:02.400+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:07:02.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.092 seconds
+[2025-03-10T00:07:32.798+0000] {processor.py:186} INFO - Started process (PID=717) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:07:32.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:07:32.804+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:07:32.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:07:32.816+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:07:32.846+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:07:32.846+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:07:32.861+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:07:32.860+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:07:32.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.087 seconds
+[2025-03-10T00:08:03.269+0000] {processor.py:186} INFO - Started process (PID=727) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:08:03.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:08:03.275+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:08:03.274+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:08:03.289+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:08:03.325+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:08:03.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:08:03.349+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:08:03.349+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:08:03.394+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.138 seconds
+[2025-03-10T00:08:33.723+0000] {processor.py:186} INFO - Started process (PID=737) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:08:33.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:08:33.733+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:08:33.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:08:33.757+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:08:33.823+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:08:33.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:08:33.850+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:08:33.850+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:08:33.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.156 seconds
+[2025-03-10T00:09:04.034+0000] {processor.py:186} INFO - Started process (PID=747) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:09:04.036+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:09:04.040+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:09:04.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:09:04.057+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:09:04.085+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:09:04.084+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:09:04.100+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:09:04.099+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:09:04.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.108 seconds
+[2025-03-10T00:09:34.470+0000] {processor.py:186} INFO - Started process (PID=757) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:09:34.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:09:34.474+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:09:34.474+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:09:34.484+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:09:34.506+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:09:34.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:09:34.521+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:09:34.521+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:09:34.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.075 seconds
+[2025-03-10T00:10:04.902+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:10:04.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:10:04.906+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:10:04.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:10:04.914+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:10:04.938+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:10:04.937+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:10:04.951+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:10:04.950+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:10:04.969+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.076 seconds
+[2025-03-10T00:10:35.594+0000] {processor.py:186} INFO - Started process (PID=777) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:10:35.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:10:35.604+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:10:35.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:10:35.617+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:10:35.651+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:10:35.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:10:35.673+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:10:35.673+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:10:35.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.113 seconds
+[2025-03-10T00:11:05.885+0000] {processor.py:186} INFO - Started process (PID=787) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:11:05.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:11:05.890+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:11:05.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:11:05.899+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:11:05.928+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:11:05.928+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:11:05.948+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:11:05.948+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:11:05.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.095 seconds
+[2025-03-10T00:11:36.322+0000] {processor.py:186} INFO - Started process (PID=797) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:11:36.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:11:36.343+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:11:36.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:11:36.351+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:11:36.383+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:11:36.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:11:36.401+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:11:36.401+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:11:36.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.114 seconds
+[2025-03-10T00:12:06.767+0000] {processor.py:186} INFO - Started process (PID=807) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:12:06.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:12:06.780+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:12:06.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:12:06.808+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:12:06.845+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:12:06.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:12:06.870+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:12:06.870+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:12:06.901+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.144 seconds
+[2025-03-10T00:12:37.231+0000] {processor.py:186} INFO - Started process (PID=817) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:12:37.243+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:12:37.247+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:12:37.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:12:37.262+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:12:37.307+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:12:37.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:12:37.336+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:12:37.336+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:12:37.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.156 seconds
+[2025-03-10T00:13:07.748+0000] {processor.py:186} INFO - Started process (PID=827) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:13:07.749+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:13:07.753+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:13:07.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:13:07.768+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:13:07.801+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:13:07.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:13:07.819+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:13:07.819+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:13:07.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.110 seconds
+[2025-03-10T00:13:38.199+0000] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:13:38.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:13:38.216+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:13:38.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:13:38.228+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:13:38.258+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:13:38.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:13:38.279+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:13:38.279+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:13:38.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.112 seconds
+[2025-03-10T00:14:08.595+0000] {processor.py:186} INFO - Started process (PID=847) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:08.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:14:08.605+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:08.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:08.618+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:08.655+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:08.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:14:08.703+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:08.703+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:14:08.822+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.236 seconds
+[2025-03-10T00:14:39.155+0000] {processor.py:186} INFO - Started process (PID=857) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:39.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:14:39.168+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:39.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:39.199+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:39.260+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:39.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:14:39.288+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:39.287+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:14:39.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.186 seconds
+[2025-03-10T00:14:47.337+0000] {processor.py:186} INFO - Started process (PID=867) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:47.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:14:47.340+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:47.340+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:47.350+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:47.572+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:47.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:14:47.585+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:47.584+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:14:47.621+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.288 seconds
+[2025-03-10T00:14:53.508+0000] {processor.py:186} INFO - Started process (PID=872) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:53.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:14:53.516+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:53.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:53.531+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:14:53.550+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:53.550+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:14:53.576+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:14:53.576+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:14:53.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.111 seconds
+[2025-03-10T00:15:08.658+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:15:08.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:15:08.662+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:15:08.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:15:08.677+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:15:08.697+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:15:08.697+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:15:08.725+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:15:08.725+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:15:08.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.115 seconds
+[2025-03-10T00:15:39.039+0000] {processor.py:186} INFO - Started process (PID=887) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:15:39.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:15:39.053+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:15:39.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:15:39.087+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:15:39.418+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:15:39.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:15:40.963+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:15:40.962+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:15:40.993+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 1.976 seconds
+[2025-03-10T00:16:11.239+0000] {processor.py:186} INFO - Started process (PID=902) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:16:11.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:16:11.244+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:16:11.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:16:11.255+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:16:11.296+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:16:11.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:16:11.315+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:16:11.315+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:16:11.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.113 seconds
+[2025-03-10T00:16:41.575+0000] {processor.py:186} INFO - Started process (PID=1012) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:16:41.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:16:41.632+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:16:41.631+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:16:41.767+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:16:42.017+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:16:42.017+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:16:42.090+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:16:42.090+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:16:42.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.631 seconds
+[2025-03-10T00:17:12.465+0000] {processor.py:186} INFO - Started process (PID=1026) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:17:12.472+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:17:12.478+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:17:12.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:17:12.491+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:17:12.616+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:17:12.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:17:12.654+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:17:12.654+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:17:12.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.230 seconds
+[2025-03-10T00:17:43.005+0000] {processor.py:186} INFO - Started process (PID=1036) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:17:43.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:17:43.020+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:17:43.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:17:43.053+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:17:43.120+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:17:43.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:17:43.155+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:17:43.155+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:17:43.183+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.199 seconds
+[2025-03-10T00:18:13.559+0000] {processor.py:186} INFO - Started process (PID=1046) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:18:13.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:18:13.579+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:18:13.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:18:13.603+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:18:13.649+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:18:13.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:18:13.669+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:18:13.668+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:18:13.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.146 seconds
+[2025-03-10T00:18:43.823+0000] {processor.py:186} INFO - Started process (PID=1056) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:18:43.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:18:43.829+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:18:43.829+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:18:43.844+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:18:43.880+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:18:43.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:18:43.907+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:18:43.906+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:18:43.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.114 seconds
+[2025-03-10T00:19:14.246+0000] {processor.py:186} INFO - Started process (PID=1066) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:19:14.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:19:14.252+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:19:14.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:19:14.265+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:19:14.297+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:19:14.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:19:14.333+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:19:14.332+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:19:14.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.135 seconds
+[2025-03-10T00:19:44.697+0000] {processor.py:186} INFO - Started process (PID=1078) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:19:44.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:19:44.705+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:19:44.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:19:44.719+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:19:44.750+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:19:44.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:19:44.768+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:19:44.767+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:19:44.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.110 seconds
+[2025-03-10T00:20:15.091+0000] {processor.py:186} INFO - Started process (PID=1088) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:20:15.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:20:15.106+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:20:15.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:20:15.122+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:20:15.182+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:20:15.181+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:20:15.248+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:20:15.248+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:20:15.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.228 seconds
+[2025-03-10T00:20:45.804+0000] {processor.py:186} INFO - Started process (PID=1098) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:20:45.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:20:45.834+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:20:45.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:20:45.980+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:20:46.328+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:20:46.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:20:46.391+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:20:46.390+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:20:46.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.711 seconds
+[2025-03-10T00:21:16.804+0000] {processor.py:186} INFO - Started process (PID=1132) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:21:16.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:21:16.822+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:21:16.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:21:16.843+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:21:16.886+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:21:16.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:21:16.917+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:21:16.916+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:21:16.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.179 seconds
+[2025-03-10T00:21:47.233+0000] {processor.py:186} INFO - Started process (PID=1142) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:21:47.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:21:47.237+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:21:47.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:21:47.250+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:21:47.297+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:21:47.296+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:21:47.325+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:21:47.324+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:21:47.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.121 seconds
+[2025-03-10T00:22:17.521+0000] {processor.py:186} INFO - Started process (PID=1152) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:22:17.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:22:17.534+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:22:17.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:22:17.548+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:22:17.586+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:22:17.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:22:17.611+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:22:17.611+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:22:17.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.135 seconds
+[2025-03-10T00:22:47.970+0000] {processor.py:186} INFO - Started process (PID=1162) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:22:47.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:22:47.975+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:22:47.974+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:22:48.006+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:22:48.061+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:22:48.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:22:48.090+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:22:48.090+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:22:48.114+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.150 seconds
+[2025-03-10T00:23:18.453+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:23:18.460+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:23:18.464+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:23:18.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:23:18.480+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:23:18.538+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:23:18.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:23:18.555+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:23:18.555+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:23:18.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.132 seconds
+[2025-03-10T00:23:48.838+0000] {processor.py:186} INFO - Started process (PID=1182) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:23:48.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:23:48.843+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:23:48.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:23:48.859+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:23:48.898+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:23:48.898+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:23:48.925+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:23:48.925+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:23:48.955+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.131 seconds
+[2025-03-10T00:24:19.245+0000] {processor.py:186} INFO - Started process (PID=1192) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:24:19.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:24:19.270+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:24:19.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:24:19.282+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:24:19.316+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:24:19.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:24:19.340+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:24:19.340+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:24:19.361+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.124 seconds
+[2025-03-10T00:24:49.667+0000] {processor.py:186} INFO - Started process (PID=1202) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:24:49.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:24:49.670+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:24:49.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:24:49.681+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:24:49.722+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:24:49.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:24:49.745+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:24:49.744+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:24:49.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.129 seconds
+[2025-03-10T00:25:20.095+0000] {processor.py:186} INFO - Started process (PID=1212) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:25:20.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:25:20.117+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:25:20.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:25:20.137+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:25:20.199+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:25:20.199+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:25:20.225+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:25:20.225+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:25:20.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.167 seconds
+[2025-03-10T00:25:50.550+0000] {processor.py:186} INFO - Started process (PID=1222) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:25:50.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:25:50.555+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:25:50.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:25:50.565+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:25:50.606+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:25:50.605+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:25:50.640+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:25:50.639+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:25:50.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.131 seconds
+[2025-03-10T00:26:21.020+0000] {processor.py:186} INFO - Started process (PID=1280) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:26:21.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:26:21.140+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:26:21.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:26:21.206+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:26:21.426+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:26:21.426+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:26:21.518+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:26:21.518+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:26:21.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.710 seconds
+[2025-03-10T00:26:52.001+0000] {processor.py:186} INFO - Started process (PID=1375) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:26:52.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:26:52.008+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:26:52.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:26:52.046+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:26:52.097+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:26:52.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:26:52.134+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:26:52.133+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:26:52.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.176 seconds
+[2025-03-10T00:27:22.473+0000] {processor.py:186} INFO - Started process (PID=1385) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:27:22.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:27:22.486+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:27:22.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:27:22.501+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:27:22.541+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:27:22.541+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:27:22.562+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:27:22.562+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:27:22.590+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.128 seconds
+[2025-03-10T00:27:52.916+0000] {processor.py:186} INFO - Started process (PID=1395) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:27:52.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:27:52.925+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:27:52.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:27:52.938+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:27:52.974+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:27:52.974+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:27:52.990+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:27:52.990+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:27:53.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.113 seconds
+[2025-03-10T00:28:23.313+0000] {processor.py:186} INFO - Started process (PID=1405) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:28:23.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:28:23.318+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:28:23.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:28:23.332+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:28:23.370+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:28:23.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:28:23.395+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:28:23.395+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:28:23.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.112 seconds
+[2025-03-10T00:28:53.716+0000] {processor.py:186} INFO - Started process (PID=1415) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:28:53.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:28:53.726+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:28:53.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:28:53.738+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:28:53.769+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:28:53.768+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:28:53.791+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:28:53.791+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:28:53.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.112 seconds
+[2025-03-10T00:29:24.144+0000] {processor.py:186} INFO - Started process (PID=1425) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:29:24.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:29:24.155+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:29:24.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:29:24.167+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:29:24.197+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:29:24.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:29:24.216+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:29:24.216+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:29:24.242+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.108 seconds
+[2025-03-10T00:29:54.565+0000] {processor.py:186} INFO - Started process (PID=1435) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:29:54.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:29:54.571+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:29:54.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:29:54.586+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:29:54.620+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:29:54.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:29:54.705+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:29:54.705+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:29:54.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.178 seconds
+[2025-03-10T00:30:24.859+0000] {processor.py:186} INFO - Started process (PID=1445) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:30:24.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:30:24.864+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:30:24.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:30:24.876+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:30:24.903+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:30:24.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:30:24.919+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:30:24.918+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:30:24.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.097 seconds
+[2025-03-10T00:30:55.205+0000] {processor.py:186} INFO - Started process (PID=1455) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:30:55.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:30:55.212+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:30:55.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:30:55.224+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:30:55.260+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:30:55.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:30:55.281+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:30:55.281+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:30:55.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.112 seconds
+[2025-03-10T00:31:25.559+0000] {processor.py:186} INFO - Started process (PID=1594) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:31:25.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:31:25.563+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:31:25.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:31:25.576+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:31:25.617+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:31:25.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:31:25.641+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:31:25.641+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:31:25.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.114 seconds
+[2025-03-10T00:31:55.976+0000] {processor.py:186} INFO - Started process (PID=1604) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:31:55.983+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:31:55.986+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:31:55.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:31:55.996+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:31:56.033+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:31:56.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:31:56.050+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:31:56.050+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:31:56.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.107 seconds
+[2025-03-10T00:32:26.374+0000] {processor.py:186} INFO - Started process (PID=1614) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:32:26.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:32:26.380+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:32:26.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:32:26.390+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:32:26.418+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:32:26.418+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:32:26.436+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:32:26.436+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:32:26.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.095 seconds
+[2025-03-10T00:32:56.780+0000] {processor.py:186} INFO - Started process (PID=1624) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:32:56.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:32:56.789+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:32:56.789+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:32:56.803+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:32:56.839+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:32:56.839+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:32:56.863+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:32:56.862+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:32:56.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.119 seconds
+[2025-03-10T00:33:27.204+0000] {processor.py:186} INFO - Started process (PID=1634) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:33:27.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:33:27.226+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:33:27.225+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:33:27.260+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:33:27.313+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:33:27.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:33:27.335+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:33:27.335+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:33:27.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.184 seconds
+[2025-03-10T00:33:57.674+0000] {processor.py:186} INFO - Started process (PID=1644) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:33:57.682+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:33:57.684+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:33:57.684+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:33:57.700+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:33:57.745+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:33:57.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:33:57.769+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:33:57.769+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:33:57.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.128 seconds
+[2025-03-10T00:34:28.078+0000] {processor.py:186} INFO - Started process (PID=1654) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:34:28.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:34:28.083+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:34:28.082+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:34:28.097+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:34:28.128+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:34:28.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:34:28.145+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:34:28.145+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:34:28.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.103 seconds
+[2025-03-10T00:34:58.473+0000] {processor.py:186} INFO - Started process (PID=1664) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:34:58.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:34:58.484+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:34:58.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:34:58.496+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:34:58.532+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:34:58.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:34:58.554+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:34:58.554+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:34:58.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.120 seconds
+[2025-03-10T00:35:28.852+0000] {processor.py:186} INFO - Started process (PID=1674) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:35:28.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:35:28.855+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:35:28.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:35:28.865+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:35:28.902+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:35:28.902+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:35:28.922+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:35:28.921+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:35:28.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.111 seconds
+[2025-03-10T00:35:59.200+0000] {processor.py:186} INFO - Started process (PID=1684) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:35:59.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:35:59.211+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:35:59.211+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:35:59.221+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:35:59.254+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:35:59.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:35:59.270+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:35:59.270+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:35:59.299+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.108 seconds
+[2025-03-10T00:36:29.605+0000] {processor.py:186} INFO - Started process (PID=1751) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:36:29.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:36:29.609+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:36:29.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:36:29.624+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:36:29.672+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:36:29.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:36:29.705+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:36:29.705+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:36:29.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.150 seconds
+[2025-03-10T00:37:00.072+0000] {processor.py:186} INFO - Started process (PID=1837) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:37:00.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:37:00.077+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:37:00.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:37:00.090+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:37:00.125+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:37:00.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:37:00.139+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:37:00.139+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:37:00.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.100 seconds
+[2025-03-10T00:37:30.458+0000] {processor.py:186} INFO - Started process (PID=1847) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:37:30.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:37:30.462+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:37:30.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:37:30.471+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:37:30.511+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:37:30.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:37:30.528+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:37:30.528+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:37:30.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.104 seconds
+[2025-03-10T00:38:00.848+0000] {processor.py:186} INFO - Started process (PID=1857) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:38:00.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:38:00.859+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:38:00.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:38:00.867+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:38:00.904+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:38:00.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:38:00.922+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:38:00.921+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:38:00.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.103 seconds
+[2025-03-10T00:38:31.215+0000] {processor.py:186} INFO - Started process (PID=1867) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:38:31.216+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:38:31.219+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:38:31.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:38:31.228+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:38:31.259+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:38:31.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:38:31.273+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:38:31.272+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:38:31.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.096 seconds
+[2025-03-10T00:39:01.594+0000] {processor.py:186} INFO - Started process (PID=1877) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:39:01.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:39:01.597+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:39:01.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:39:01.607+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:39:01.641+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:39:01.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:39:01.656+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:39:01.656+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:39:01.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.096 seconds
+[2025-03-10T00:39:31.985+0000] {processor.py:186} INFO - Started process (PID=1887) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:39:31.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:39:31.988+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:39:31.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:39:32.004+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:39:32.033+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:39:32.033+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:39:32.046+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:39:32.046+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:39:32.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.086 seconds
+[2025-03-10T00:40:02.348+0000] {processor.py:186} INFO - Started process (PID=1897) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:40:02.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:40:02.353+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:40:02.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:40:02.369+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:40:02.391+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:40:02.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:40:02.405+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:40:02.405+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:40:02.433+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.090 seconds
+[2025-03-10T00:40:32.744+0000] {processor.py:186} INFO - Started process (PID=1907) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:40:32.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:40:32.747+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:40:32.746+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:40:32.762+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:40:32.785+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:40:32.785+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:40:32.799+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:40:32.799+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:40:32.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.081 seconds
+[2025-03-10T00:41:03.147+0000] {processor.py:186} INFO - Started process (PID=1917) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:41:03.156+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:41:03.160+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:41:03.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:41:03.178+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:41:03.204+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:41:03.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:41:03.219+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:41:03.219+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:41:03.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.100 seconds
+[2025-03-10T00:41:33.569+0000] {processor.py:186} INFO - Started process (PID=1927) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:41:33.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:41:33.575+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:41:33.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:41:33.594+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:41:33.624+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:41:33.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:41:33.644+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:41:33.644+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:41:33.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.110 seconds
+[2025-03-10T00:42:03.845+0000] {processor.py:186} INFO - Started process (PID=1937) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:42:03.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:42:03.853+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:42:03.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:42:03.879+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:42:03.923+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:42:03.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:42:03.952+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:42:03.952+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:42:04.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.165 seconds
+[2025-03-10T00:42:34.309+0000] {processor.py:186} INFO - Started process (PID=1947) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:42:34.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:42:34.312+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:42:34.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:42:34.326+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:42:34.355+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:42:34.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:42:34.375+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:42:34.375+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:42:34.392+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.089 seconds
+[2025-03-10T00:43:04.700+0000] {processor.py:186} INFO - Started process (PID=1957) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:43:04.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:43:04.710+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:43:04.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:43:04.726+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:43:04.749+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:43:04.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:43:04.763+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:43:04.763+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:43:04.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.085 seconds
+[2025-03-10T00:43:35.096+0000] {processor.py:186} INFO - Started process (PID=1967) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:43:35.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:43:35.099+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:43:35.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:43:35.117+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:43:35.145+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:43:35.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:43:35.160+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:43:35.160+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:43:35.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.096 seconds
+[2025-03-10T00:44:05.496+0000] {processor.py:186} INFO - Started process (PID=1977) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:44:05.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:44:05.506+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:44:05.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:44:05.523+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:44:05.548+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:44:05.548+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:44:05.562+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:44:05.562+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:44:05.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.087 seconds
+[2025-03-10T00:44:35.844+0000] {processor.py:186} INFO - Started process (PID=1987) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:44:35.845+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:44:35.848+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:44:35.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:44:35.867+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:44:35.897+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:44:35.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:44:35.913+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:44:35.912+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:44:35.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.099 seconds
+[2025-03-10T00:45:06.186+0000] {processor.py:186} INFO - Started process (PID=1997) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:45:06.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:45:06.197+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:45:06.197+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:45:06.223+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:45:06.265+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:45:06.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:45:06.291+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:45:06.290+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:45:06.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.142 seconds
+[2025-03-10T00:45:36.603+0000] {processor.py:186} INFO - Started process (PID=2007) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:45:36.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:45:36.606+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:45:36.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:45:36.622+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:45:36.644+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:45:36.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:45:36.659+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:45:36.658+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:45:36.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.078 seconds
+[2025-03-10T00:46:06.963+0000] {processor.py:186} INFO - Started process (PID=2017) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:46:06.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:46:06.966+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:46:06.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:46:06.980+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:46:07.002+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:46:07.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:46:07.018+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:46:07.017+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:46:07.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.082 seconds
+[2025-03-10T00:46:37.325+0000] {processor.py:186} INFO - Started process (PID=2027) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:46:37.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:46:37.330+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:46:37.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:46:37.351+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:46:37.389+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:46:37.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:46:37.414+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:46:37.414+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:46:37.455+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.138 seconds
+[2025-03-10T00:47:07.734+0000] {processor.py:186} INFO - Started process (PID=2037) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:47:07.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:47:07.746+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:47:07.745+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:47:07.755+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:47:07.782+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:47:07.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:47:07.802+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:47:07.801+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:47:07.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.107 seconds
+[2025-03-10T00:47:38.110+0000] {processor.py:186} INFO - Started process (PID=2047) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:47:38.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:47:38.114+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:47:38.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:47:38.126+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:47:38.159+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:47:38.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:47:38.181+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:47:38.181+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:47:38.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.103 seconds
+[2025-03-10T00:48:08.533+0000] {processor.py:186} INFO - Started process (PID=2057) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:48:08.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:48:08.537+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:48:08.537+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:48:08.546+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:48:08.570+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:48:08.570+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:48:08.583+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:48:08.583+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:48:08.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.075 seconds
+[2025-03-10T00:48:38.940+0000] {processor.py:186} INFO - Started process (PID=2067) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:48:38.948+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:48:38.951+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:48:38.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:48:38.977+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:48:39.041+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:48:39.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:48:39.070+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:48:39.070+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:48:39.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.189 seconds
+[2025-03-10T00:49:09.404+0000] {processor.py:186} INFO - Started process (PID=2077) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:49:09.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:49:09.409+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:49:09.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:49:09.422+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:49:09.461+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:49:09.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:49:09.481+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:49:09.481+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:49:09.508+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.115 seconds
+[2025-03-10T00:49:39.826+0000] {processor.py:186} INFO - Started process (PID=2087) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:49:39.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:49:39.838+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:49:39.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:49:39.847+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:49:39.873+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:49:39.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:49:39.889+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:49:39.889+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:49:39.916+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.096 seconds
+[2025-03-10T00:50:10.142+0000] {processor.py:186} INFO - Started process (PID=2097) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:50:10.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:50:10.146+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:50:10.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:50:10.159+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:50:10.190+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:50:10.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:50:10.206+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:50:10.205+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:50:10.233+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.099 seconds
+[2025-03-10T00:50:40.533+0000] {processor.py:186} INFO - Started process (PID=2107) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:50:40.536+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:50:40.543+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:50:40.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:50:40.553+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:50:40.581+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:50:40.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:50:40.596+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:50:40.596+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:50:40.619+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.094 seconds
+[2025-03-10T00:51:10.822+0000] {processor.py:186} INFO - Started process (PID=2117) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:51:10.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:51:10.827+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:51:10.826+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:51:10.837+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:51:10.861+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:51:10.861+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:51:10.875+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:51:10.875+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:51:10.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.077 seconds
+[2025-03-10T00:51:41.185+0000] {processor.py:186} INFO - Started process (PID=2127) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:51:41.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:51:41.195+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:51:41.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:51:41.211+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:51:41.246+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:51:41.245+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:51:41.265+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:51:41.264+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:51:41.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.118 seconds
+[2025-03-10T00:52:11.574+0000] {processor.py:186} INFO - Started process (PID=2137) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:52:11.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:52:11.577+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:52:11.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:52:11.586+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:52:11.612+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:52:11.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:52:11.627+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:52:11.627+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:52:11.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.077 seconds
+[2025-03-10T00:52:41.941+0000] {processor.py:186} INFO - Started process (PID=2147) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:52:41.943+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:52:41.946+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:52:41.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:52:41.960+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:52:41.988+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:52:41.988+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:52:42.005+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:52:42.004+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:52:42.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.101 seconds
+[2025-03-10T00:53:12.332+0000] {processor.py:186} INFO - Started process (PID=2157) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:53:12.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:53:12.336+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:53:12.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:53:12.346+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:53:12.371+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:53:12.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:53:12.387+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:53:12.387+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:53:12.410+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.085 seconds
+[2025-03-10T00:53:42.713+0000] {processor.py:186} INFO - Started process (PID=2167) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:53:42.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:53:42.716+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:53:42.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:53:42.727+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:53:42.755+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:53:42.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:53:42.772+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:53:42.772+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:53:42.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.093 seconds
+[2025-03-10T00:54:13.089+0000] {processor.py:186} INFO - Started process (PID=2177) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:54:13.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:54:13.092+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:54:13.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:54:13.101+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:54:13.125+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:54:13.124+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:54:13.139+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:54:13.139+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:54:13.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.071 seconds
+[2025-03-10T00:54:43.443+0000] {processor.py:186} INFO - Started process (PID=2187) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:54:43.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:54:43.446+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:54:43.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:54:43.462+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:54:43.503+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:54:43.502+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:54:43.528+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:54:43.528+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:54:43.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.119 seconds
+[2025-03-10T00:55:13.829+0000] {processor.py:186} INFO - Started process (PID=2197) to work on /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:55:13.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/gcs_conn_test.py for tasks to queue
+[2025-03-10T00:55:13.835+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:55:13.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:55:13.848+0000] {processor.py:925} INFO - DAG(s) 'spark_gcs_job' retrieved from /opt/airflow/dags/gcs_conn_test.py
+[2025-03-10T00:55:13.886+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:55:13.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-10T00:55:13.918+0000] {logging_mixin.py:190} INFO - [2025-03-10T00:55:13.917+0000] {dag.py:4180} INFO - Setting next_dagrun for spark_gcs_job to None, run_after=None
+[2025-03-10T00:55:13.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/gcs_conn_test.py took 0.128 seconds

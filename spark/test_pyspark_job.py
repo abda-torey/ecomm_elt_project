@@ -3,7 +3,6 @@ from pyspark.sql import SparkSession
 # Initialize the Spark session
 spark = SparkSession.builder \
     .appName("SparkTest") \
-    .master("spark://spark:7077") \
     .getOrCreate()
 
 # Create a sample DataFrame
